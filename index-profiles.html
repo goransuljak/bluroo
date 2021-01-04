@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/profiles.css" />
+    <script src="https://kit.fontawesome.com/11eb14a462.js" crossorigin="anonymous"></script>
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
+<title>Bluroo | Browse </title>
+<link rel="shortcut icon" href="./images/heart.png" />
+  </head>
+  <body>
+    <!--SIDEBAR and HEADER-->
+    <input type="checkbox" id="check">
+    <header>
+      <label for="check">
+        <i class="fas fa-caret-square-down" id="sidebar-btn"></i>
+  
+      </label>
+      <div class="header">
+        <div class="header__area--right">
+          
+          <h2><img src="heart.png" alt="" width="21px"> Bluroo</h2>
+          
+        
+        </div>
+        <div class="header__area--left">
+          <!--ICONS WRAPPER-->
+          
+         
+      <i class="fas fa-coins" data-tooltip="99 icon's" title="You got 99 coin's"><p>99</p></i>        
+      <i class="fas fa-grin-hearts" title="1 girl want's to see you"><p>	&nbsp;1</p></i>
+      <i class="fas fa-bell" title="5 new notification's"><p>&nbsp;5</p> </i> 
+      <a href="login.html" class="btn">Logout</a>
+       
+          <!--ICONS WRAPPER-END-->
+
+        
+        
+
+        
+        
+        </div>
+      
+      </div>
+    </header>
+     
+    <div class="sidebar">
+      <center>
+        <img src="images/blurguy.jpg" class="sidebar__image" alt="blurguy">
+      
+      </center>
+      <a href="myprofile.html"><i class="fas fa-user"></i>Profile</a>
+      <a href="msgs-1.html"><i class="fas fa-envelope"></i>Message's</a>
+      <a href="index-profiles.html"><i class="fas fa-eye"></i>Browse</a>
+      <a href="chat.html"><i class="fas fa-comments"></i>Chat</a>
+      <a href="settings.html"><i class="fas fa-sliders-h"></i>Setting's</a>
+    
+    </div>
+    <!--SIDEBAR and HEADER END-->
+    <!--SUBSCRIBE-PAY-->
+    <div class="coin">
+      <div class="envelope">
+        <i class="fa fa-coins" aria-hidden="true"></i>
+    </div>
+    <div class="overlay">
+        <div class="newsletter">
+        <div class="close"><i class="fa fa-times" aria-hidden="true"></i></div>
+        <div class="icon"><i class="fa fa-coins" aria-hidden="true"></i></div>
+      
+        <h1>Bluroo Premium</h1>
+        <div class="packages">
+          <div class="chest">
+            <h4>2000 Gold Coin's</h4>
+        <img src="images/chest.png" alt="chest" width="100px">
+             <p>5 &euro;</p>
+             <button data-modal-target="#modal" class="btn-green">Purchase</button>
+             <!--MODAL-->
+             <div class="modal" id="modal">
+             
+               <!--CREDIT CARD PAYMENTS --> 
+               <div class="card-payment">
+              
+              
+                <form method="POST">
+                  <button data-close-button class="close-btn"><i class="fa fa-times"></i></button>
+                 
+                  <div class="input-group">
+                    <div class="input-box">
+                      <input type="text" placeholder="Card Holder Full Name" required class="name">
+                      <i class="fa fa-user icon"></i>
+                    </div>
+                 
+                  </div>
+          
+                  <div class="input-group">
+                    <div class="input-box">
+                      <h4>Date of Birth</h4>
+                      <input type="text" placeholder="DD" class="dob">
+                      <input type="text" placeholder="MM" class="dob">
+                      <input type="text" placeholder="YYYY" class="dob">
+                    </div>
+                    
+                    <div class="input-box">
+                      <h4>Gender</h4>
+                      <input type="radio" id="b1" name="gender" checked class="radio">
+                      <label for="b1">MALE</label>
+                      <input type="radio" id="b2" name="gender" class="radio">
+                      <label for="b2">FEMALE</label>
+                    </div>
+                  </div>
+                  
+                  <div class="input-group">
+                    <div class="input-box">
+                      <h4>PAYMENT DETAILS</h4>
+                      <input type="radio" name="pay" id="bc1" checked class="radio">
+                      <label for="bc1"><span><i class="fa fa-cc-visa"> Credit Card</i></span></label>
+                      <input type="radio" name="pay" id="bc2" class="radio">
+                      <label for="bc2"><span><i class="fa fa-cc-mastercard"> Debit Card</i></span></label>
+                    </div>
+                  </div>
+          
+                  <div class="input-group">
+                    <div class="input-box">
+                      <input type="tel" placeholder="XXXX XXXX XXXX XXXX" required class="name">
+                      <i class="fa fa-credit-card icon"></i>
+                    </div>
+                  </div>
+          
+                  <div class="input-group">
+                    <div class="input-box">
+                      <input type="tel" placeholder="CVC" required class="name">
+                      <i class="fa fa-user icon"></i>
+                    </div>
+                    <div class="input-box">
+                      <select>
+                        <option>01 jan</option>
+                        <option>01 feb</option>
+                        <option>01 mar</option>
+                        <option>01 apr</option>
+                        <option>01 may</option>
+                        <option>01 jun</option>
+                        <option>01 jul</option>
+                        <option>01 aug</option>
+                        <option>01 sep</option>
+                        <option>01 oct</option>
+                        <option>01 nov</option>
+                        <option>01 dec</option>
+                      </select>
+                      <select>
+                        <option>2020</option>
+                        <option>2021</option>
+                        <option>2022</option>
+                        <option>2023</option>
+                        <option>2024</option>
+                        
+                      </select>
+                    </div>
+                  </div>
+                  <div class="input-group">
+                    <div class="input-box">
+                      <button type="submit">Make Payment</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+               <!--CREDIT CARD PAYMENTS END--> 
+             </div>
+             
+            
+
+            
+             <!--MODAL-END-->
+          </div>
+          <div class="chest">
+            <h4>Month Gold Coin's</h4>
+        <img src="images/chestt.webp" alt="chest" width="95px">
+             <p>15 &euro; </p>
+             <button data-modal-target="#modal" class="btn-green">Purchase</button>
+
+          </div>
+        </div>
+        <div id="overlay"></div>
+        
+
+    </div>
+    </div>
+    </div>
+    <!--SUBSCRIBE-PAY-END->
+    <!--SECTION PROFILES-->
+    <div class="container">
+      <div class="item">
+        <a href="index-profile.html">
+          <img src="./images/LanBlurred.jpg" alt="blurpic">
+        </a>
+          <h2>Mary, 22</h2>
+          <p>3km away</p>   
+      </div>
+      <div class="item">
+        <a href="index-profile.html">
+          <img src="./images/blur1.jpg" alt="blurpic">
+        </a>
+        <h2>Jenny, 28</h2>
+        <p>2km away</p>
+      </div>
+    
+      <div class="item">
+        <a href="index-profile.html">
+          <img src="./images/LanBlurred.jpg" alt="blurpic">
+        </a>
+          <h2>Mary, 22</h2>
+          <p>3km away</p>   
+      </div>
+      <div class="item">
+        <a href="index-profile.html">
+          <img src="./images/blur1.jpg" alt="blurpic">
+        </a>
+        <h2>Jenny, 28</h2>
+        <p>2km away</p>
+      </div>
+      <div class="item">
+        <a href="index-profile.html">
+          <img src="./images/LanBlurred.jpg" alt="blurpic">
+        </a>
+          <h2>Mary, 22</h2>
+          <p>3km away</p>   
+      </div>
+      <div class="item">
+        <a href="index-profile.html">
+          <img src="./images/blur1.jpg" alt="blurpic">
+        </a>
+        <h2>Jenny, 28</h2>
+        <p>2km away</p>
+      </div>
+      <div class="item">
+        <a href="index-profile.html">
+          <img src="./images/LanBlurred.jpg" alt="blurpic">
+        </a>
+          <h2>Mary, 22</h2>
+          <p>3km away</p>   
+      </div>
+      <div class="item">
+        <a href="index-profile.html">
+          <img src="./images/blur1.jpg" alt="blurpic">
+        </a>
+        <h2>Jenny, 28</h2>
+        <p>2km away</p>
+      </div>
+      <div class="item">
+        <a href="index-profile.html">
+          <img src="./images/LanBlurred.jpg" alt="blurpic">
+        </a>
+          <h2>Mary, 22</h2>
+          <p>3km away</p>   
+      </div>
+      <div class="item">
+        <a href="index-profile.html">
+          <img src="./images/blur1.jpg" alt="blurpic">
+        </a>
+        <h2>Jenny, 28</h2>
+        <p>2km away</p>
+      </div>
+      <div class="item">
+        <a href="index-profile.html">
+          <img src="./images/LanBlurred.jpg" alt="blurpic">
+        </a>
+          <h2>Mary, 22</h2>
+          <p>3km away</p>   
+      </div>
+      <div class="item">
+        <a href="index-profile.html">
+          <img src="./images/blur1.jpg" alt="blurpic">
+        </a>
+        <h2>Jenny, 28</h2>
+        <p>2km away</p>
+      </div>
+      <div class="item">
+        <a href="index-profile.html">
+          <img src="./images/LanBlurred.jpg" alt="blurpic">
+        </a>
+          <h2>Mary, 22</h2>
+          <p>3km away</p>   
+      </div>
+      <div class="item">
+        <a href="index-profile.html">
+          <img src="./images/blur1.jpg" alt="blurpic">
+        </a>
+        <h2>Jenny, 28</h2>
+        <p>2km away</p>
+      </div>
+      <div class="item">
+        <a href="index-profile.html">
+          <img src="./images/LanBlurred.jpg" alt="blurpic">
+        </a>
+          <h2>Mary, 22</h2>
+          <p>3km away</p>   
+      </div>
+      <div class="item">
+        <a href="index-profile.html">
+          <img src="./images/blur1.jpg" alt="blurpic">
+        </a>
+        <h2>Jenny, 28</h2>
+        <p>2km away</p>
+      </div>
+      <div class="item">
+        <a href="index-profile.html">
+          <img src="./images/LanBlurred.jpg" alt="blurpic">
+        </a>
+          <h2>Mary, 22</h2>
+          <p>3km away</p>   
+      </div>
+      <div class="item">
+        <a href="index-profile.html">
+          <img src="./images/blur1.jpg" alt="blurpic">
+        </a>
+        <h2>Jenny, 28</h2>
+        <p>2km away</p>
+      </div>
+      <div class="item">
+        <a href="index-profile.html">
+          <img src="./images/LanBlurred.jpg" alt="blurpic">
+        </a>
+          <h2>Mary, 22</h2>
+          <p>3km away</p>   
+      </div>
+      <div class="item">
+        <a href="index-profile.html">
+          <img src="./images/blur1.jpg" alt="blurpic">
+        </a>
+        <h2>Jenny, 28</h2>
+        <p>2km away</p>
+      </div>
+      <div class="item">
+        <a href="index-profile.html">
+          <img src="./images/LanBlurred.jpg" alt="blurpic">
+        </a>
+          <h2>Mary, 22</h2>
+          <p>3km away</p>   
+      </div>
+      <div class="item">
+        <a href="index-profile.html">
+          <img src="./images/blur1.jpg" alt="blurpic">
+        </a>
+        <h2>Jenny, 28</h2>
+        <p>2km away</p>
+      </div>
+      <div class="item">
+        <a href="index-profile.html">
+          <img src="./images/LanBlurred.jpg" alt="blurpic">
+        </a>
+          <h2>Mary, 22</h2>
+          <p>3km away</p>   
+      </div>
+      <div class="item">
+        <a href="index-profile.html">
+          <img src="./images/blur1.jpg" alt="blurpic">
+        </a>
+        <h2>Jenny, 28</h2>
+        <p>2km away</p>
+      </div>
+      <div class="item">
+        <a href="index-profile.html">
+          <img src="./images/LanBlurred.jpg" alt="blurpic">
+        </a>
+          <h2>Mary, 22</h2>
+          <p>3km away</p>   
+      </div>
+      <div class="item">
+        <a href="index-profile.html">
+          <img src="./images/blur1.jpg" alt="blurpic">
+        </a>
+        <h2>Jenny, 28</h2>
+        <p>2km away</p>
+      </div>
+      <div class="item">
+        <a href="index-profile.html">
+          <img src="./images/LanBlurred.jpg" alt="blurpic">
+        </a>
+          <h2>Mary, 22</h2>
+          <p>3km away</p>   
+      </div>
+      <div class="item">
+        <a href="index-profile.html">
+          <img src="./images/blur1.jpg" alt="blurpic">
+        </a>
+        <h2>Jenny, 28</h2>
+        <p>2km away</p>
+      </div>
+      <div class="item">
+        <a href="index-profile.html">
+          <img src="./images/LanBlurred.jpg" alt="blurpic">
+        </a>
+          <h2>Mary, 22</h2>
+          <p>3km away</p>   
+      </div>
+      <div class="item">
+        <a href="index-profile.html">
+          <img src="./images/blur1.jpg" alt="blurpic">
+        </a>
+        <h2>Jenny, 28</h2>
+        <p>2km away</p>
+      </div>
+      <div class="item">
+        <a href="index-profile.html">
+          <img src="./images/LanBlurred.jpg" alt="blurpic">
+        </a>
+          <h2>Mary, 22</h2>
+          <p>3km away</p>   
+      </div>
+      <div class="item">
+        <a href="index-profile.html">
+          <img src="./images/blur1.jpg" alt="blurpic">
+        </a>
+        <h2>Jenny, 28</h2>
+        <p>2km away</p>
+      </div>
+      <div class="item">
+        <a href="index-profile.html">
+          <img src="./images/LanBlurred.jpg" alt="blurpic">
+        </a>
+          <h2>Mary, 22</h2>
+          <p>3km away</p>   
+      </div>
+      <div class="item">
+        <a href="index-profile.html">
+          <img src="./images/blur1.jpg" alt="blurpic">
+        </a>
+        <h2>Jenny, 28</h2>
+        <p>2km away</p>
+      </div>
+      <div class="item">
+        <a href="index-profile.html">
+          <img src="./images/LanBlurred.jpg" alt="blurpic">
+        </a>
+          <h2>Mary, 22</h2>
+          <p>3km away</p>   
+      </div>
+      <div class="item">
+        <a href="index-profile.html">
+          <img src="./images/blur1.jpg" alt="blurpic">
+        </a>
+        <h2>Jenny, 28</h2>
+        <p>2km away</p>
+      </div>
+      <div class="item">
+        <a href="index-profile.html">
+          <img src="./images/LanBlurred.jpg" alt="blurpic">
+        </a>
+          <h2>Mary, 22</h2>
+          <p>3km away</p>   
+      </div>
+      <div class="item">
+        <a href="index-profile.html">
+          <img src="./images/blur1.jpg" alt="blurpic">
+        </a>
+        <h2>Jenny, 28</h2>
+        <p>2km away</p>
+      </div>
+      <div class="item">
+        <a href="index-profile.html">
+          <img src="./images/LanBlurred.jpg" alt="blurpic">
+        </a>
+          <h2>Mary, 22</h2>
+          <p>3km away</p>   
+      </div>
+      <div class="item">
+        <a href="index-profile.html">
+          <img src="./images/blur1.jpg" alt="blurpic">
+        </a>
+        <h2>Jenny, 28</h2>
+        <p>2km away</p>
+      </div>
+      <div class="item">
+        <a href="index-profile.html">
+          <img src="./images/LanBlurred.jpg" alt="blurpic">
+        </a>
+          <h2>Mary, 22</h2>
+          <p>3km away</p>   
+      </div>
+      <div class="item">
+        <a href="index-profile.html">
+          <img src="./images/blur1.jpg" alt="blurpic">
+        </a>
+        <h2>Jenny, 28</h2>
+        <p>2km away</p>
+      </div>
+      <div class="item">
+        <a href="index-profile.html">
+          <img src="./images/LanBlurred.jpg" alt="blurpic">
+        </a>
+          <h2>Mary, 22</h2>
+          <p>3km away</p>   
+      </div>
+      <div class="item">
+        <a href="index-profile.html">
+          <img src="./images/blur1.jpg" alt="blurpic">
+        </a>
+        <h2>Jenny, 28</h2>
+        <p>2km away</p>
+      </div>
+      <div class="item">
+        <a href="index-profile.html">
+          <img src="./images/LanBlurred.jpg" alt="blurpic">
+        </a>
+          <h2>Mary, 22</h2>
+          <p>3km away</p>   
+      </div>
+      <div class="item">
+        <a href="index-profile.html">
+          <img src="./images/blur1.jpg" alt="blurpic">
+        </a>
+        <h2>Jenny, 28</h2>
+        <p>2km away</p>
+      </div>
+      <div class="item">
+        <a href="index-profile.html">
+          <img src="./images/LanBlurred.jpg" alt="blurpic">
+        </a>
+          <h2>Mary, 22</h2>
+          <p>3km away</p>   
+      </div>
+      <div class="item">
+        <a href="index-profile.html">
+          <img src="./images/blur1.jpg" alt="blurpic">
+        </a>
+        <h2>Jenny, 28</h2>
+        <p>2km away</p>
+      </div>
+      <div class="item">
+        <a href="index-profile.html">
+          <img src="./images/LanBlurred.jpg" alt="blurpic">
+        </a>
+          <h2>Mary, 22</h2>
+          <p>3km away</p>   
+      </div>
+      <div class="item">
+        <a href="index-profile.html">
+          <img src="./images/blur1.jpg" alt="blurpic">
+        </a>
+        <h2>Jenny, 28</h2>
+        <p>2km away</p>
+      </div>
+
+    <!--SECTION PROFILES-->
+    
+
+
+    <script src="js/main.js"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+        $(".envelope").click(function(){
+            $(".overlay").toggleClass("active");
+        })
+        $(".close").click(function(){
+            $(".overlay").toggleClass("active");
+        })
+    });
+  </script>
+  </body>
+</html>

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/chat.css" />
+    <link rel="stylesheet" href="lightbox.min.css">
+    <script src="lightbox-plus-jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/11eb14a462.js" crossorigin="anonymous"></script>
+
+ 
+
+
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
+<title>Bluroo | Chat</title>
+<link rel="shortcut icon" href="./images/heart.png" />
+  </head>
+  <body>
+   <div class="chat">
+      <!--CHATBOX-->
+      <div class="chat__box">
+        
+        <div class="chat__box__messages">
+          <div class="chat__box__messages__text">
+            <label class="contact"> &#128540;john225: </label> <p id="demo">hello there</p>
+          </div>
+         
+        </div>
+        <div class="chat__box__input">
+        
+          <input type="text" placeholder="type a message" id="myText">
+          <button onclick="myFunction()">Send</button>
+        </div>
+      </div>
+
+     <!--CHATBOX-END-->
+
+     <!--CHAT USERS-->
+     <div class="chat__users">
+       
+    <!--USER-->
+ <div class="chat__users__container">
+
+  <div class="chat__users__user selected">
+       
+    <img src="./images/admin.jpg" alt="admin1">
+    <div class="chat__users__user__info" onclick="togglePopup()">
+      <label class="contact">Admin: pinki5</label> 
+   </div>
+   </div>
+
+   <div class="chat__users__user selected">
+       
+    <img src="./images/admin2.jpg" alt="admin2">
+    <div class="chat__users__user__info" onclick="togglePopup()">
+      <label class="contact">Admin: shcvabo321</label> 
+   </div>
+   </div>
+   
+    <div class="chat__users__user">
+       
+      <img src="images/blur1.jpg" alt="jenny221">
+      <div class="chat__users__user__info" onclick="togglePopup()">
+        <label class="contact">jenny221</label> 
+     </div>
+     </div>
+
+     <div class="chat__users__user">
+       
+      <img src="images/LanBlurred.jpg" alt="jenny221">
+      <div class="chat__users__user__info" onclick="togglePopup()">
+        <label class="contact">laura704</label> 
+     </div>
+     </div>
+
+     <div class="chat__users__user">
+       
+      <img src="images/front_face.jpg" alt="jenny221">
+      <div class="chat__users__user__info" onclick="togglePopup()">
+        <label class="contact">mary203</label> 
+     </div>
+     </div>
+
+
+     <div class="chat__users__user">
+       
+      <img src="images/blurguy.jpg" alt="jenny221">
+      <div class="chat__users__user__info" onclick="togglePopup()">
+        <label class="contact">garfield221</label> 
+     </div>
+     </div>
+
+     <div class="chat__users__user">
+       
+      <img src="images/LanBlurred.jpg" alt="jenny221">
+      <div class="chat__users__user__info" onclick="togglePopup()">
+        <label class="contact">lady4</label> 
+     </div>
+     </div>
+
+     <div class="chat__users__user">
+       
+      <img src="images/front_face.jpg" alt="jenny221">
+      <div class="chat__users__user__info" onclick="togglePopup()">
+        <label class="contact">mister2203</label> 
+     </div>
+     </div>
+
+
+     <div class="chat__users__user">
+       
+      <img src="images/blurguy.jpg" alt="jenny221">
+      <div class="chat__users__user__info" onclick="togglePopup()">
+        <label class="contact myprofile">john225</label> 
+     </div>
+     </div>
+
+
+     <div class="chat__users__user">
+       
+      <img src="images/king.jpg" alt="knight22">
+      <div class="chat__users__user__info" onclick="togglePopup()">
+        <label class="contact">knight22</label> 
+     </div>
+     </div>
+
+     <div class="chat__users__user">
+       
+      <img src="images/blurguy.jpg" alt="jenny221">
+      <div class="chat__users__user__info" onclick="togglePopup()">
+        <label class="contact">tommyiii</label> 
+     </div>
+     </div>
+
+     <div class="chat__users__user">
+       
+      <img src="images/LanBlurred.jpg" alt="jenny221">
+      <div class="chat__users__user__info" onclick="togglePopup()">
+        <label class="contact">markspancer</label> 
+     </div>
+     </div>
+
+     <div class="chat__users__user">
+       
+      <img src="images/front_face.jpg" alt="jenny221">
+      <div class="chat__users__user__info" onclick="togglePopup()">
+        <label class="contact">juliana</label> 
+     </div>
+     </div>
+
+
+     <div class="chat__users__user">
+       
+      <img src="images/blurguy.jpg" alt="jenny221">
+      <div class="chat__users__user__info" onclick="togglePopup()">
+        <label class="contact">hamaster</label> 
+     </div>
+     </div>
+
+
+     <div class="chat__users__user">
+       
+      <img src="images/king.jpg" alt="knight22">
+      <div class="chat__users__user__info" onclick="togglePopup()">
+        <label class="contact">villiageman</label> 
+     </div>
+     </div>
+
+     <div class="chat__users__user">
+       
+      <img src="images/LanBlurred.jpg" alt="jenny221">
+      <div class="chat__users__user__info" onclick="togglePopup()">
+        <label class="contact">iiiiiiiiiiiiii</label> 
+     </div>
+     </div>
+
+     <div class="chat__users__user">
+       
+      <img src="images/front_face.jpg" alt="jenny221">
+      <div class="chat__users__user__info" onclick="togglePopup()">
+        <label class="contact">dragonballz</label> 
+     </div>
+     </div>
+
+
+     <div class="chat__users__user">
+       
+      <img src="images/blurguy.jpg" alt="jenny221">
+      <div class="chat__users__user__info" onclick="togglePopup()">
+        <label class="contact">handsomeee</label> 
+     </div>
+     </div>
+     
+ </div>
+  <!--USER-->
+
+    <div class="chat__users__bottom">
+     <a href="index-profiles.html">
+      <i class="fas fa-arrow-circle-left"></i>
+     </a>
+
+    </div>
+
+     </div>
+
+     <!--CHAT USERS-->
+
+     </div> 
+     </div>
+
+
+     <div class="private" id="popup-1">
+      
+     
+      <div class="private__content" draggable="true">
+        <div class="private__content__btn" onclick="togglePopup()"><i title="close" class="fas fa-window-close"> <i title="minimize" class="fas fa-window-minimize"></i></i></div>
+        <div class="private__content__textarea">
+          <input type="text" placeholder="type a message">
+          <button>Send</button>
+        </div>
+      </div>
+     
+
+    </div>
+
+
+     <script src="main.js">
+
+     </script>
+  </body>
+</html>

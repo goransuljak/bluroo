@@ -1,0 +1,17 @@
+{
+  "name": "sassy",
+  "version": "1.0.0",
+  "description": "Landing page",
+  "main": "main.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Goran Suljak",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  },
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
